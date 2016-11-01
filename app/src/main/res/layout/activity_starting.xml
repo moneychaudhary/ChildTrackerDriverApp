@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:id="@+id/activity_starting"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:background="#e7e7e7"
+              android:gravity="center_vertical"
+              android:orientation="vertical"
+              tools:context="com.example.money.childtracker.StartingActivity"
+      >
+
+      <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="3"
+            android:background="#000715"
+
+            >
+
+            <TextView
+                  android:id="@+id/driver_on_duty_textview"
+                  android:layout_width="match_parent"
+                  android:layout_height="wrap_content"
+                  android:layout_gravity="center_vertical"
+                  android:text="Driver Login"
+                  android:textAlignment="center"
+                  android:textColor="#ffffff"
+                  android:textSize="30dp"
+
+                  />
+      </LinearLayout>
+
+      <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="0dp"
+            android:layout_weight="12"
+            >
+
+            <ImageView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  android:scaleType="centerCrop"
+                  android:src="@drawable/back"
+                  />
+
+            <ScrollView
+                  android:layout_width="match_parent"
+                  android:layout_height="match_parent"
+                  >
+
+                  <LinearLayout
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        android:layout_marginTop="70dp"
+                        android:orientation="vertical"
+                        >
+
+                        <EditText
+                              android:id="@+id/driver_name"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:background="@drawable/box"
+                              android:hint="Enter Your Name.."
+                              android:inputType="text"
+                              android:padding="8dp"
+                              android:paddingLeft="30dp"
+                              android:paddingStart="30dp"
+                              />
+
+                        <EditText
+                              android:id="@+id/contact_no"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:background="@drawable/box"
+                              android:hint="Enter Your Contact no.."
+                              android:inputType="number"
+                              android:padding="8dp"
+                              android:paddingLeft="30dp"
+                              android:paddingStart="30dp"
+                              />
+
+                        <EditText
+                              android:id="@+id/route_no"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:background="@drawable/box"
+                              android:hint="Enter Route no.."
+                              android:inputType="text"
+                              android:padding="8dp"
+                              android:paddingLeft="30dp"
+                              android:paddingStart="30dp"
+
+                              />
+
+                        <EditText
+                              android:id="@+id/bus_no"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:background="@drawable/box"
+                              android:hint="Enter Bus no.."
+                              android:inputType="text"
+                              android:padding="8dp"
+                              android:paddingLeft="30dp"
+                              android:paddingStart="30dp"
+                              />
+
+                        <EditText
+                              android:id="@+id/driver_id"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:background="@drawable/box"
+                              android:hint="Enter your Id no.."
+                              android:inputType="text"
+                              android:padding="8dp"
+                              android:paddingLeft="30dp"
+                              android:paddingStart="30dp"
+                              />
+
+                        <Button
+                              android:id="@+id/submit_button"
+                              android:layout_width="match_parent"
+                              android:layout_height="wrap_content"
+                              android:layout_marginBottom="10dp"
+                              android:layout_marginLeft="20dp"
+                              android:layout_marginRight="20dp"
+                              android:layout_marginTop="10dp"
+                              android:background="@drawable/box1"
+                              android:padding="2dp"
+                              android:text="Submit"
+                              android:textSize="20sp"
+                              />
+                  </LinearLayout>
+            </ScrollView>
+      </RelativeLayout>
+</LinearLayout>
+
+
+
+

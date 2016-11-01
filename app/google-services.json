@@ -1,0 +1,42 @@
+{
+  "project_info": {
+    "project_number": "966360786708",
+    "firebase_url": "https://childtracker-1eb3f.firebaseio.com",
+    "project_id": "childtracker-1eb3f",
+    "storage_bucket": "childtracker-1eb3f.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:966360786708:android:7cd334c612e3212d",
+        "android_client_info": {
+          "package_name": "com.example.money.childtracker"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "966360786708-p09slai93l5p47khibek8sd8fde1t3r6.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDQRRpZbIpXhjZ7RGL1cv6EEHENIzMd47M"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 1,
+          "other_platform_oauth_client": []
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

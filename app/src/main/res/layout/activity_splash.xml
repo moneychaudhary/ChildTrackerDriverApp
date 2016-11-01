@@ -1,0 +1,44 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout
+      xmlns:android="http://schemas.android.com/apk/res/android"
+      xmlns:tools="http://schemas.android.com/tools"
+      android:id="@+id/activity_splash"
+      android:layout_width="match_parent"
+      android:layout_height="match_parent"
+      tools:context="com.example.money.childtracker.Splashh"
+      android:background="@color/myDarkBlueColor"
+      >
+
+      <ImageView
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@mipmap/ic_launcher"
+            android:layout_marginTop="215dp"
+            android:id="@+id/imageView"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            />
+
+      <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/app_name"
+            android:id="@+id/splash_textView"
+            android:layout_below="@id/imageView"
+            android:textAlignment="center"
+            android:layout_marginTop="15dp"
+            android:textSize="20sp"
+            />
+
+      <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:text="(Driver System)"
+            android:id="@+id/splash_textView1"
+            android:layout_below="@id/splash_textView"
+            android:textAlignment="center"
+            android:textSize="10sp"
+            />
+
+</RelativeLayout>
